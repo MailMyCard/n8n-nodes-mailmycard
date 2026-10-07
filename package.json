@@ -1,0 +1,63 @@
+{
+	"name": "n8n-nodes-mailmycard",
+	"version": "1.0.0",
+	"description": "Send real handwritten cards by post from n8n: a MailMyCard node (send a card, get an order, list templates) and a trigger for card events.",
+	"keywords": [
+		"n8n-community-node-package",
+		"n8n",
+		"mailmycard",
+		"handwritten",
+		"cards",
+		"direct mail"
+	],
+	"license": "MIT",
+	"homepage": "https://mailmycard.com/developers",
+	"bugs": {
+		"url": "https://github.com/mailmycard/n8n-nodes-mailmycard/issues"
+	},
+	"author": {
+		"name": "MailMyCard",
+		"email": "hello@mailmycard.com"
+	},
+	"repository": {
+		"type": "git",
+		"url": "git+https://github.com/mailmycard/n8n-nodes-mailmycard.git"
+	},
+	"scripts": {
+		"build": "n8n-node build",
+		"build:watch": "tsc --watch",
+		"dev": "n8n-node dev",
+		"lint": "n8n-node lint",
+		"lint:fix": "n8n-node lint --fix",
+		"typecheck": "tsc --noEmit",
+		"test": "n8n-node build && node --test test/",
+		"release": "n8n-node release",
+		"prepublishOnly": "n8n-node prerelease"
+	},
+	"files": [
+		"dist",
+		"!dist/tsconfig.tsbuildinfo",
+		"CHANGELOG.md"
+	],
+	"n8n": {
+		"n8nNodesApiVersion": 1,
+		"strict": true,
+		"credentials": [
+			"dist/credentials/MailMyCardApi.credentials.js"
+		],
+		"nodes": [
+			"dist/nodes/MailMyCard/MailMyCard.node.js",
+			"dist/nodes/MailMyCard/MailMyCardTrigger.node.js"
+		]
+	},
+	"devDependencies": {
+		"@n8n/node-cli": "*",
+		"eslint": "9.39.4",
+		"prettier": "3.8.3",
+		"release-it": "20.2.0",
+		"typescript": "5.9.3"
+	},
+	"peerDependencies": {
+		"n8n-workflow": "*"
+	}
+}

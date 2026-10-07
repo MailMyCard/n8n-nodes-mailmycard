@@ -1,0 +1,18 @@
+{
+	"node": "n8n-nodes-mailmycard.mailMyCardTrigger",
+	"nodeVersion": "1.0",
+	"codexVersion": "1.0",
+	"categories": ["Marketing", "Communication"],
+	"resources": {
+		"credentialDocumentation": [
+			{
+				"url": "https://github.com/mailmycard/n8n-nodes-mailmycard?tab=readme-ov-file#credentials"
+			}
+		],
+		"primaryDocumentation": [
+			{
+				"url": "https://mailmycard.com/developers"
+			}
+		]
+	}
+}
