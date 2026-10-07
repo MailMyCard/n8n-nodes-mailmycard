@@ -2,6 +2,10 @@
 
 All notable changes to this package are recorded here. Versions follow [semver](https://semver.org).
 
+## 1.0.1
+
+- Published from GitHub Actions with an npm provenance statement (same code as 1.0.0).
+
 ## 1.0.0
 
 First public release.

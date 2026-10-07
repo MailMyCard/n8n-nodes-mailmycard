@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-mailmycard",
-	"version": "1.0.0",
+	"version": "1.0.1",
 	"description": "Send real handwritten cards by post from n8n: a MailMyCard node (send a card, get an order, list templates) and a trigger for card events.",
 	"keywords": [
 		"n8n-community-node-package",
