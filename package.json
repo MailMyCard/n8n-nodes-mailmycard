@@ -1,6 +1,6 @@
 {
 	"name": "n8n-nodes-mailmycard",
-	"version": "1.0.1",
+	"version": "1.0.2",
 	"description": "Send real handwritten cards by post from n8n: a MailMyCard node (send a card, get an order, list templates) and a trigger for card events.",
 	"keywords": [
 		"n8n-community-node-package",
@@ -13,7 +13,7 @@
 	"license": "MIT",
 	"homepage": "https://mailmycard.com/developers",
 	"bugs": {
-		"url": "https://github.com/mailmycard/n8n-nodes-mailmycard/issues"
+		"url": "https://github.com/MailMyCard/n8n-nodes-mailmycard/issues"
 	},
 	"author": {
 		"name": "MailMyCard",
@@ -21,7 +21,7 @@
 	},
 	"repository": {
 		"type": "git",
-		"url": "git+https://github.com/mailmycard/n8n-nodes-mailmycard.git"
+		"url": "git+https://github.com/MailMyCard/n8n-nodes-mailmycard.git"
 	},
 	"scripts": {
 		"build": "n8n-node build",

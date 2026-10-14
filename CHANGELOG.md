@@ -2,9 +2,14 @@
 
 All notable changes to this package are recorded here. Versions follow [semver](https://semver.org).
 
-## 1.0.1
+## 1.0.2
 
-- Published from GitHub Actions with an npm provenance statement (same code as 1.0.0).
+- Correct repository URL capitalization to match GitHub Actions provenance.
+- Align issue and credential-documentation links with the canonical repository URL.
+
+## 1.0.1 (unpublished)
+
+- Attempted a GitHub Actions release; npm rejected the provenance because the repository URL capitalization did not match.
 
 ## 1.0.0
 
