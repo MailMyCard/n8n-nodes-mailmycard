@@ -2,6 +2,10 @@
 
 All notable changes to this package are recorded here. Versions follow [semver](https://semver.org).
 
+## 1.0.3
+
+- Use n8n's supported Marketing & Content category to pass the community package scanner.
+
 ## 1.0.2
 
 - Correct repository URL capitalization to match GitHub Actions provenance.

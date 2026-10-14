@@ -2,7 +2,7 @@
 	"node": "n8n-nodes-mailmycard.mailMyCardTrigger",
 	"nodeVersion": "1.0",
 	"codexVersion": "1.0",
-	"categories": ["Marketing", "Communication"],
+	"categories": ["Marketing & Content", "Communication"],
 	"resources": {
 		"credentialDocumentation": [
 			{
